@@ -10,7 +10,9 @@ Requisitos: Mac con Apple Silicon y macOS 26 o posterior.
 
 ## Actualizar
 
-En Configuración → Actualizaciones, activar la búsqueda al iniciar y, opcionalmente, la descarga automática del DMG en Descargas. Abrir el instalador para completar el reemplazo. La aplicación verifica el tamaño y la huella SHA-256 publicados por GitHub y evita descargar de nuevo un archivo idéntico.
+En Configuración → Actualizaciones, seleccionar Buscar actualización. Si hay una versión nueva, seleccionar Descargar actualización y elegir dónde guardar el instalador. La primera vez se propone la carpeta Descargas del sistema; después se recuerda la última carpeta elegida. También se puede seleccionar una carpeta preferida desde esta sección. La búsqueda al iniciar es opcional y solo avisa: la descarga requiere una acción del usuario.
+
+Abrir el instalador para completar el reemplazo. La aplicación verifica el tamaño y la huella SHA-256 antes de guardar. El origen de las actualizaciones está incorporado; no es necesario configurar ni introducir un repositorio.
 
 ## Firma y componentes de terceros
 
